@@ -1,0 +1,15 @@
+# Commands to create a multi-client parallel test
+client 0
+R 1
+W 1 client0_data
+client 1
+R 2
+W 2 client1_data
+client 0
+R 2
+client 1
+R 1
+client 0
+W 3 shared_data
+client 1
+R 3

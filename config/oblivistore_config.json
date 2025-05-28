@@ -1,0 +1,18 @@
+{
+  "num_partitions": 8,
+  "partition_capacity": 16,
+  "num_blocks": 32,
+  "num_clients": 10,
+  "query_files": [
+    "client1_queries.txt",
+    "client2_queries.txt",
+    "single_client_test.txt",
+    "client1_queries.txt",
+    "client2_queries.txt",
+    "client1_queries.txt",
+    "client2_queries.txt",
+    "client1_queries.txt",
+    "client2_queries.txt",
+    "single_client_test.txt"
+  ]
+}

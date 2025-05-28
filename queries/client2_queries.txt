@@ -1,0 +1,7 @@
+# Test queries for client 2
+R 2
+R 3
+W 5 updated_value_by_client2
+R 5
+W 12 new_block_from_client2
+R 12
